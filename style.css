@@ -1,0 +1,101 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+body {
+/* Old browsers */
+background: #ffcccc;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #53FF53,#9F35FF);
+margin: 0;
+padding: 0;
+}
+
+h1 {
+color: #FFF;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+}
+
+h2 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+font-weight: 100;
+font-size: 22px;
+line-height: 20px;
+padding-bottom: 30px;
+text-align: center;
+width: 100%;
+}
+
+p {
+color: aliceblue;
+line-height: 1.3em;
+text-align: left;
+width: 100%;
+}
+
+.byline {
+font-family: Helvetica;
+color: rgba(255, 255, 255, 0.5);
+float: left;
+font-size: 14px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.caption {
+display: block;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-style: italic;
+line-height: 34px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+text-align: center;
+top: 50%;
+width: 90%;
+}
+
+.content {
+padding: 40px;
+}
+
+.image {
+background-image: url("https://img0.baidu.com/it/u=2934231196,2446421902&fm=253&fmt=auto&app=138&f=JPEG?w=727&h=500");
+background-size: cover;
+background-position: left;
+height: 900px;
+}
+
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: left;
+  width: 50px;
+}
