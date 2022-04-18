@@ -99,3 +99,49 @@ box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
 float: left;
   width: 50px;
 }
+
+caption{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    color: #333;
+}
+
+body {
+font-family: sans-serif;
+}
+
+th , td{
+    border: 1px solid rgb(114, 7, 7);
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(119, 6, 248);
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead th{
+    width: 25%;
+}
+.cell-highlight{
+    background-color: coral;
+    font-weight: bpld;
+}
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+  }
+tbody th {
+    background-color: rgb(10, 245, 100);
+    color: rgba(247, 17, 162, 0.534);
+    text-align: left;
+  }
+  tbody tr:nth-child(even) th {
+    background-color: rgb(80, 131, 80);
+  }
